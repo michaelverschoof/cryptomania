@@ -1,0 +1,42 @@
+{
+    "name": "cryptomania",
+    "version": "0.1.0",
+    "description": "Useful functions for crypto currencies.",
+    "keywords": [
+        "cryptomania",
+        "crypto",
+        "utility",
+        "wallet",
+        "validation"
+    ],
+    "homepage": "https://github.com/michaelverschoof/cryptomania#readme",
+    "author": "Michael Verschoof <michael@michaelv.nl>",
+    "license": "SEE LICENSE IN LICENSE",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/michaelverschoof/cryptomania.git"
+    },
+    "bugs": {
+        "url": "https://github.com/michaelverschoof/cryptomania/issues"
+    },
+    "main": "dist/cryptomania.js",
+    "types": "dist/cryptomania.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "typescript": "tsc",
+        "clean": "rm -rf dist/* && rm -rf coverage/*",
+        "build": "npm run clean && npm run typescript",
+        "test": "npm run build && jest",
+        "test:coverage": "npm run test -- --coverage",
+        "test:coveralls": "npm run test:coverage -- --coverageReporters=text-lcov | coveralls"
+    },
+    "devDependencies": {
+        "@types/jest": "^25.1.4",
+        "coveralls": "^3.0.9",
+        "jest": "^25.1.0",
+        "ts-jest": "^25.2.1",
+        "typescript": "^3.8.3"
+    }
+}
