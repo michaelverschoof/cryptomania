@@ -1,5 +1,5 @@
 [![MIT License][license-image]][license-url]
-[![Coverage Status][coverall-image]][coverall-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
 
 # Cryptomania
 
@@ -24,5 +24,5 @@ This song is one of my personal favorites and its name sounded nice for this pro
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE
-[coverall-image]: https://coveralls.io/repos/github/michaelverschoof/cryptomania/badge.svg?branch=master
-[coverall-url]: https://coveralls.io/github/michaelverschoof/cryptomania?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/michaelverschoof/cryptomania/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/michaelverschoof/cryptomania?branch=master
